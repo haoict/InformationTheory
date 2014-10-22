@@ -1,0 +1,16 @@
+﻿<Page
+	x:Class="InformationTheory.MainPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:InformationTheory"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+		<StackPanel Orientation="Vertical">
+			<Button Content="Lempei Ziv" HorizontalAlignment="Stretch" Margin="10,0" VerticalAlignment="Center" Click="LempeiZiv_Clicked"/>
+		</StackPanel>
+	</Grid>
+</Page>
